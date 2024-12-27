@@ -1,0 +1,2 @@
+# React Router Dom Nested Route Parameter Issue
+This repository demonstrates a common issue encountered when working with nested routes and parameters in React Router Dom v6.  The problem arises when navigating directly to a nested route without first visiting the parent route.  The solution involves using the `useLocation` hook to conditionally render content based on the URL path.
